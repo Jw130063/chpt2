@@ -21,7 +21,7 @@ public class Main {
   num2 = input.nextInt();
   System.out.println("Please enter another whole number>>>>");
 
-   num1=
+
 
 
 
