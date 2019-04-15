@@ -1,7 +1,7 @@
 public class IntegerDemoClass {
         public static void main(String[] args){
         int anINT= 1234;
-        byte aByte = 1234;
+        byte aByte = 1;
         short aShort= 1234;
         long aLong= 1234;
 
