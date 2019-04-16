@@ -5,12 +5,21 @@ public class ArithmeticDemo {
     int FirstNumber;
     int SecondNumber;
     int sum;
-    int diffrence;
+    int difference;
     int average;
 
     Scanner input = new Scanner(System.in);
     System.out.print("Please enter an integer");
-    firstNumber = new Scanner(i)
+    FirstNumber = input.nextInt();
+    System.out.print("Please enter another integer");
+    SecondNumber = input.nextInt();
+
+    sum = FirstNumber + SecondNumber;
+    difference =  FirstNumber + SecondNumber;
+    average = sum / 2;
+
+    System.out.println(FirstNumber + "  + "  +"   SecondNumber +  "+ average );
+
 
 
 
