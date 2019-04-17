@@ -1,8 +1,26 @@
+import java.util.Scanner;
+
 public class InchesToFeet {
-    int InchesInFee = 12;
+public static void main(String[] args){
+    int InchesInFeet = 12;
     int userEntryInches;
-    int numberoffeet;
-    int inchesremain;
+
+
+    System.out.print("Please enter a number of inches");
+    Scanner userinput = new Scanner(System.in);
+    userEntryInches = userinput.nextInt();
+
+    System.out.println(" number of feet " + ( userEntryInches / InchesInFeet) + "number of inches " + (userEntryInches % InchesInFeet));
+
+
+
+
+
+
+
+}
+
+
 
 
 
