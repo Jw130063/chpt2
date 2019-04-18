@@ -18,5 +18,17 @@ public class QuartsToGallonsInteractive {
 
 
 
+
+
+    }
+    public static void displayMath(int n){
+        final int NUM_QUARTS_IN_GALLON= 4;
+        int remainderOfQuarts;
+        int numberOfGallons;
+
+
+
+
+
     }
 }

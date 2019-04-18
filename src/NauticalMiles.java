@@ -11,7 +11,9 @@ public class NauticalMiles {
         System.out.println("Enter the amount of nautical miles" );
         userinput = keyboard.nextInt();
         
-        System.out.println("Number of miles " + (numberofnauticalMiles / userinput) + " Number of Kilometers: " + (numberofkilometersinanauticalmile / userinput ));
+        System.out.println("Number of miles " + (numberofnauticalMiles / userinput) + " Number of Kilometers: "
+                + (numberofkilometersinanauticalmile / userinput ));
+
 
 
 
